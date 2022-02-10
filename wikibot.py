@@ -13,7 +13,7 @@ def url(title):
     return responce["url"]
 
 
-bot = TeleBot("1735077707:AAFGH_HAqDz7wD6lwA1r9OHHJK-X9lqJFsY")
+bot = TeleBot("")
 
 @bot.message_handler(commands= ['start'])
 def start(message):
